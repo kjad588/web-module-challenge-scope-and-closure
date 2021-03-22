@@ -87,8 +87,13 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(/*code Here*/){
+function finalScore(callback, remainingInnings){
   /*Code Here*/
+  let score = {
+    Home: 0, 
+    Away: 0
+  }
+  return score;
 }
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
