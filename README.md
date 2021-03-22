@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+  closure is the ability to use functions within other functions
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +67,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  closure is used when the annonymous function is nested in the personalDice function
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  the rollers name stays the same while the newRoll could change.
+
 c. What is the lexical scope of `newRoll`? 
 
+  the lexical scope of `newRoll` is a function scope
 
 ### Task 3 - Stretch Goals
 
